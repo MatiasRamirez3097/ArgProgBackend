@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @RequestMapping("exp")
-@CrossOrigin("https://frontendmgr-14d4e.web.ap")
+@CrossOrigin("https://frontendmgr-14d4e.web.app")
 public class ExperienciaController {
     @Autowired
     ExpService expService;

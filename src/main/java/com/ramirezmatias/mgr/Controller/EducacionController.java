@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/edu")
-@CrossOrigin(origins = "https://frontendmgr-14d4e.web.ap")
+@CrossOrigin(origins = "https://frontendmgr-14d4e.web.app")
 public class EducacionController {
     @Autowired
     EduService eduService;
